@@ -30,7 +30,7 @@ Atualização de um curso pelo id
 http PUT ":8080/cursos/{id}" name="PostgreSQL" category="Banco de Dados"
 ```
 
-Altera o status de ativo ou não do curso
+Altera o status do curso para 'Ativo'
 
 ```bash
 http PATCH ":8080/cursos/{id}/active"
